@@ -21,4 +21,5 @@ yarn dev
 ## Recursos para modificar la aplicación:
 
 - [Link a la documentación de Philips HUE](https://developers.meethue.com/) - aprendé a usar la API.
-- [Link a la documentación Next JS](https://nextjs.org/docs) - aprendé más acerca de Next JS.
+- [Link a la documentación de Next JS](https://nextjs.org/docs) - para saber más acerca de Next JS.
+- [Link a la documentación de Typescript](https://www.typescriptlang.org/docs/) - descubrí más acerca de Typescript.
