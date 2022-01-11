@@ -2,7 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/26230508/148878968-1b7db2cc-6f6b-49e6-b65c-9fe7b81e5d00.png)
 
-## Descripción:
+## Descripción de la app:
+
 Es un switch gigante que te permite controlar tus luces Philips HUE de una manera más complicada.
 
 ## Cómo usarlo:
