@@ -18,8 +18,6 @@ npm run dev
 yarn dev
 ```
 
-## Documentación de Philips HUE
-
-To learn more about Next.js, take a look at the following resources:
+## Más recursos para modificar la aplicación:
 
 - [Link a la documentación de Philips HUE](https://developers.meethue.com/) - aprendé a usar la API.
