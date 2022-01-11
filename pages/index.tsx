@@ -2,12 +2,15 @@ import type { NextPage } from 'next'
 import React from "react"
 
 const Home: NextPage = () => {
-  const [state, setState] = React.useState(false);
-  const handleClick = () => setState(!state)
+  const [state, setState] = React.useState(true);
+  const handleClick = () => {
+    setState(!state)
+    fetch(`/api/philips/${state.toString()}`)
+  }
   return (
     <div className='container'>
       <label htmlFor="lightSwitch" className="wrap">
-        <input type="checkbox" checked={state} onChange={handleClick} id="lightSwitch" name="lightSwitch" className="light-switch" />
+        <input type="checkbox" checked={!state} onChange={handleClick} id="lightSwitch" name="lightSwitch" className="light-switch" />
         <div className="panel">
           <div className="overlay"></div>
           <div className="screw top">
