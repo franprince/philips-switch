@@ -18,6 +18,7 @@ npm run dev
 yarn dev
 ```
 
-## Más recursos para modificar la aplicación:
+## Recursos para modificar la aplicación:
 
 - [Link a la documentación de Philips HUE](https://developers.meethue.com/) - aprendé a usar la API.
+- [Link a la documentación Next JS](https://nextjs.org/docs) - aprendé más acerca de Next JS.
