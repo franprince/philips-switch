@@ -37,6 +37,7 @@ const Switch = () => {
                 </div>
             </div>
         </label>
+        <a className='link' href="https://codepen.io/Katzwinkel/pen/yLNbwVV">Link al codepen del Switch. Todo el crédito a su creador.</a>
         </>
     )
 }
