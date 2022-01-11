@@ -1,3 +1,7 @@
+## Captura de la app:
+
+![image](https://user-images.githubusercontent.com/26230508/148878968-1b7db2cc-6f6b-49e6-b65c-9fe7b81e5d00.png)
+
 ## Cómo usarlo:
 
 ### Primero agregá la información de tu Philips HUE en el archivo .env:
