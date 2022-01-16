@@ -2,10 +2,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
-    request: string
+    data: string
 }
 
-export const handleLightGroup = async (arg: boolean) => {
+const handleLightGroup = async (arg: boolean) => {
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'; // La API sólo funciona así.
     let response
     try {
@@ -28,6 +28,6 @@ export default function handler(
 ) {
     const { action } = req.query
     const actionToBoolean = () => action === 'true' ? true : false
-    res.status(200).json({ request: "Ok!" })
+    res.status(200).json({ data: "Ok!" })
     handleLightGroup(actionToBoolean())
 }
